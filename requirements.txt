@@ -5,16 +5,13 @@
 streamlit==1.29.0
 
 # Machine Learning
-tensorflow>=2.13.0
+tensorflow-cpu
 scikit-learn>=1.3.0
 numpy>=1.24.0
 pandas>=2.0.0
 
 # Weather API
 requests>=2.31.0
-
-# Database
-# SQLite is built-in to Python
 
 # Visualization
 matplotlib>=3.7.0
