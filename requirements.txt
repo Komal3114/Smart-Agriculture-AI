@@ -1,14 +1,15 @@
 # Smart Agriculture AI - Dependencies
-# Python 3.8+ recommended
+# Compatible with Streamlit Cloud deployment
+# Python 3.10+ recommended
 
 # Web Framework
-streamlit==1.29.0
+streamlit==1.32.0
 
 # Machine Learning
-tensorflow-cpu
-scikit-learn>=1.3.0
-numpy>=1.24.0
-pandas>=2.0.0
+tensorflow-cpu==2.15.1
+scikit-learn==1.3.2
+numpy==1.26.4
+pandas==2.1.4
 
 # Weather API
 requests>=2.31.0
@@ -22,3 +23,7 @@ Pillow>=10.0.0
 
 # Utilities
 python-dotenv>=1.0.0
+
+# Notes:
+# tensorflow-cpu is used instead of tensorflow for lightweight deployment
+# Version conflicts with protobuf are resolved for Streamlit compatibility
