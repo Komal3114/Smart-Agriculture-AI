@@ -1,0 +1,11 @@
+n_value,p_value,k_value,temperature,humidity,soil_type,crop_type,fertilizer
+52,28,45,28,65,Loamy,Rice,Urea
+45,32,50,26,70,Black,Wheat,DAP
+55,25,40,30,60,Sandy,Maize,NPK
+40,35,55,32,55,Red,Cotton,MOP
+50,30,48,27,68,Loamy,Sugarcane,SSP
+48,28,42,29,62,Clayey,Soybean,Urea
+58,22,38,31,58,Sandy,Rice,NPK
+42,38,52,25,72,Black,Wheat,DAP
+60,26,45,28,64,Loamy,Maize,Urea
+38,40,58,33,52,Red,Cotton,MOP
